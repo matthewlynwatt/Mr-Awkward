@@ -1,0 +1,122 @@
+/* App.css */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #00bcd4;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  font-weight: 100;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #ffffff;
+  margin-bottom: 2em;
+  margin-top: 1em;
+  border: none;
+  color: black;
+  padding: 15px 30px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #00bcd4;
+  transform: scale(1.05);
+}
+
+.generated-starter {
+  border: 2px solid #00bcd4;
+  padding: 30px;
+  /* margin: 30px auto; */
+  max-width: 600px;
+  background-color: #121212;
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.generated-starter p {
+  font-size: 24px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  button {
+    font-size: 20px;
+    padding: 15px 20px;
+  }
+
+  .generated-starter {
+    padding: 20px;
+  }
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: #121212;
+  color: #333333;
+  z-index: 1;
+}
+
+.footer a {
+  color: #333333;
+  text-decoration: underline;
+}
+
+.copyright {
+  margin: 0;
+}
